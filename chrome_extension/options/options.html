@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>User Tagger Overview</title>
+	<link rel="stylesheet" href="style.css">
+	<base target="_blank">
+</head>
+<body>
+	<div class="overview">
+
+		<div class="overview-list overview-disabled" data-network="yt">
+			<div class="overview-meta">
+				<input type="checkbox" id="checkbox-yt" title="Enable / disable tagging on network">
+				<h1><label for="checkbox-yt">YouTube</label></h1>
+				<input type="button" value="Delete all tags for YouTube">
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>User ID</th>
+						<th>Tag</th>
+						<th>Post ID</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+
+		<div class="overview-list overview-disabled" data-network="fb">
+			<div class="overview-meta">
+				<input type="checkbox" id="checkbox-fb" title="Enable / disable tagging on network">
+				<h1><label for="checkbox-fb">Facebook</label></h1>
+				<input type="button" value="Delete all tags for Facebook">
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>User ID</th>
+						<th>Tag</th>
+						<th>Group</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+
+		<div class="overview-list overview-disabled" data-network="hn">
+			<div class="overview-meta">
+				<input type="checkbox" id="checkbox-hn" title="Enable / disable tagging on network">
+				<h1><label for="checkbox-hn">Hacker News</label></h1>
+				<input type="button" value="Delete all tags for Hacker News">
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>User ID</th>
+						<th>Tag</th>
+						<th>Post ID</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+
+	</div>
+	<script src="../vendor/jquery-3.2.1.min.js"></script>
+	<script src="../extension/init.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
+

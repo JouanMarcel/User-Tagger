@@ -1,0 +1,63 @@
+.overview {
+	margin: 0 auto;
+	max-width: 800px;
+}
+.overview-list {
+	margin: 40px 0 60px;
+	position: relative;
+}
+.overview-meta {
+	user-select: none;
+	position: relative;
+}
+.overview-meta h1 {
+	margin: 0;
+	padding: 0 25px;
+}
+.overview-meta label {
+	cursor: pointer;
+}
+.overview-meta [type=checkbox] {
+	cursor: pointer;
+	position: absolute;
+	top: 6px;
+	left: 0;
+	z-index: 1;
+}
+.overview-meta [type=button]{
+	cursor: pointer;
+	position: absolute;
+	top: 6px;
+	right: 0;
+	z-index: 1;
+}
+.overview-disabled {
+	max-height: 130px;
+	overflow: hidden;
+}
+.overview-disabled:before {
+	content: "";
+	display: block;
+	position: absolute;
+	pointer-events: none;
+	z-index: 2;
+	background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+table {
+	margin-top: 15px;
+	width: 100%;
+}
+thead tr {
+	color: #fff;
+	background-color: #333;
+}
+tbody tr:nth-child(2n) {
+	background-color: #eee;
+}
+th, td {
+	padding: 5px 10px
+}
