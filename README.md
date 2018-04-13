@@ -1,5 +1,6 @@
 # User Tagger
 ## Chrome Extension
+https://chrome.google.com/webstore/detail/user-tagger/ghopaighoppjknnjhkhofnkbolakobpg
 
 Functions:
 * Easy to use
